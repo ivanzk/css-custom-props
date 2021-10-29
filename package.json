@@ -1,0 +1,35 @@
+{
+  "name": "css-custom-props",
+  "version": "1.0.0",
+  "description": "Get and set CSS custom properties (variables) on any element.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^2.58.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.4.4"
+  },
+  "keywords": [
+    "css",
+    "variables",
+    "custom properties",
+    "css variables",
+    "css custom properties"
+  ],
+  "author": "ivanzk",
+  "license": "MIT",
+  "homepage": "https://github.com/ivanzk/css-custom-props",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanzk/css-custom-props.git"
+  }
+}
